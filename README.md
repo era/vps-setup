@@ -1,5 +1,5 @@
 # vps-setup
-A set of bash scripts to help you setup a brand new vps
+A set of bash scripts to help you setup a brand new vps. Each script is super small and only doing the basic. Read it before running.
 
 ## Copy ssh keys to the vps and disable Password authentication
 
