@@ -6,7 +6,7 @@ ssh-copy-id "${1}@${2}"
 echo 'Done'
 echo '    '
 echo 'You may be prompt for your sudo password in worder to disable PasswordAuthentication'
-ssh "${1}@${2}" 'sudo sed -i "/^[^#]*PasswordAuthentication[[:space:]]no/c\PasswordAuthentication yes" /etc/ssh/sshd_config'
+ssh "${1}@${2}" 'sudo sed -i "/^[^#]*PasswordAuthentication[[:space:]]yes/c\PasswordAuthentication no" /etc/ssh/sshd_config'
 echo "Done"
 echo '    '
 echo "Restartign sshd"
